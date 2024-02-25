@@ -1,6 +1,16 @@
 {
   "expo": {
     "name": "nothing-app",
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/InterDisplay-Regular.otf"
+          ]
+        }
+      ]
+    ],
     "slug": "nothing-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +31,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dineshtv.nothingapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ef75a583-b79c-4585-8c43-a01fd6059ac4"
+      }
     }
   }
 }
